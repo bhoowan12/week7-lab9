@@ -1,5 +1,5 @@
-function Tour() {
-  return <div>Tour</div>;
-}
+import Tour from './Tour';
+{tours.map((tour) => (
+  <Tour key={tour.id} {...tour} />
+)}
 
-export default Tour;
